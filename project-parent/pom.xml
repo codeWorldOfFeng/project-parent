@@ -41,6 +41,15 @@
 					</exclusion>
 				</exclusions>
 			</dependency>
+			
+			<!-- spring-jdbc -->
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-jdbc</artifactId>
+				<version>${spring-version}</version>
+			</dependency>
+			
+			<!-- spring-webmvc -->
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-webmvc</artifactId>
@@ -53,6 +62,7 @@
 				</exclusions>
 			</dependency>
 			
+			<!-- spring-security -->
 			<dependency>
 				<groupId>org.springframework.security</groupId>
 				<artifactId>spring-security-config</artifactId>
